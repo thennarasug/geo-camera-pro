@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">Geo Camera Pro</string>
+    <string name="app_long_name">Geo Camera Pro by Thennarasu Gopalsamy</string>
+
+    <!-- Permission & Onboarding -->
+    <string name="permission_title">Camera &amp; Location Access</string>
+    <string name="permission_subtitle">Geo Camera Pro overlays your live address, area, coordinates, and a scannable location QR code directly over your camera viewfinder.</string>
+    <string name="permission_camera_benefit">Live CameraX viewfinder and geo-stamped capture</string>
+    <string name="permission_location_benefit">Real-time address, area, city, and GPS coordinates</string>
+    <string name="permission_qr_benefit">Instant scannable location QR overlay at the bottom</string>
+    <string name="grant_permissions">Enable Camera &amp; Location</string>
+    <string name="open_app_settings">Open App Settings</string>
+    <string name="camera_permission_required">Camera permission is required to display the viewfinder.</string>
+    <string name="location_permission_needed">Location access disabled — tap to enable GPS</string>
+
+    <!-- Top Controls & Status -->
+    <string name="gps_locked">GPS LOCKED</string>
+    <string name="gps_locating">LOCATING…</string>
+    <string name="gps_unavailable">GPS OFFLINE</string>
+    <string name="cd_refresh_location">Refresh location</string>
+    <string name="cd_toggle_flash">Toggle flash mode</string>
+    <string name="cd_toggle_grid">Toggle grid lines</string>
+    <string name="cd_overlay_settings">Overlay settings</string>
+    <string name="cd_switch_camera">Switch front or back camera</string>
+    <string name="cd_capture_photo">Capture photo</string>
+    <string name="cd_last_photo">View last captured photo</string>
+    <string name="cd_qr_code">Location QR code overlay, tap to enlarge</string>
+    <string name="cd_mini_map">Mini map preview of current location</string>
+
+    <!-- Geo Overlay Card -->
+    <string name="geo_snippet_brand">Geo Camera Pro by Thennarasu Gopalsamy</string>
+    <string name="map_label">MAP</string>
+    <string name="label_address">ADDRESS</string>
+    <string name="label_area">AREA</string>
+    <string name="label_location">LOCATION</string>
+    <string name="label_coordinates">COORDINATES</string>
+    <string name="scan_geo">SCAN GEO</string>
+    <string name="resolving_address">Resolving street address…</string>
+    <string name="unknown_area">Local Area</string>
+    <string name="unknown_location">Waiting for GPS fix</string>
+    <string name="coordinates_pending">0.000000°, 0.000000°</string>
+    <string name="copied_location">Location snippet copied to clipboard</string>
+    <string name="photo_saved_stamped">Saved photo with Geo-QR overlay</string>
+    <string name="photo_saved_timestamp">Saved photo with timestamp</string>
+    <string name="photo_saved_plain">Photo saved to gallery</string>
+    <string name="capture_failed">Could not capture photo</string>
+    <string name="geo_off">GEO OFF</string>
+    <string name="time_only">TIME ONLY</string>
+    <string name="cd_toggle_geo">Toggle geo tagging</string>
+    <string name="cd_toggle_theme">Switch light or dark theme</string>
+    <string name="cd_cycle_filter">Switch photo filter</string>
+
+    <!-- QR Expanded Dialog -->
+    <string name="qr_dialog_title">Location QR Code</string>
+    <string name="qr_dialog_subtitle">Scan with any phone camera to open or copy this exact spot.</string>
+    <string name="qr_format_maps">Maps Link</string>
+    <string name="qr_format_geo">Geo URI</string>
+    <string name="qr_format_text">Full Snippet</string>
+    <string name="share_location">Share Location</string>
+    <string name="copy_coordinates">Copy Info</string>
+    <string name="close">Close</string>
+
+    <!-- Settings Sheet -->
+    <string name="settings_title">Geo &amp; Stamp Settings</string>
+    <string name="setting_dark_theme">Dark interface theme</string>
+    <string name="setting_dark_theme_desc">Switch between dark mode (low light) and light mode (bright daylight)</string>
+    <string name="setting_shutter_sound">Camera shutter sound</string>
+    <string name="setting_shutter_sound_desc">Play shutter click audio when capturing a photo</string>
+    <string name="setting_geo_tagging">Enable geo tagging</string>
+    <string name="setting_geo_tagging_desc">Overlay live mini map, address, coordinates, and location QR code</string>
+    <string name="setting_timestamp_only">Timestamp only over image</string>
+    <string name="setting_timestamp_only_desc">Show and stamp only date &amp; time without location, map, or QR</string>
+    <string name="setting_stamp_capture">Stamp overlay on saved photos</string>
+    <string name="setting_stamp_capture_desc">Burns the active geo or timestamp overlay onto captured JPEGs</string>
+    <string name="setting_dms_coords">Use DMS coordinate format</string>
+    <string name="setting_dms_coords_desc">Display degrees, minutes, seconds instead of decimal degrees</string>
+    <string name="setting_show_timestamp">Show live timestamp</string>
+    <string name="setting_show_timestamp_desc">Include capture date and time in the overlay</string>
+    <string name="setting_grid_lines">Viewfinder grid lines</string>
+    <string name="setting_grid_lines_desc">Rule-of-thirds composition guide over camera preview</string>
+    <string name="setting_compass_overlay">Compass direction overlay</string>
+    <string name="setting_compass_overlay_desc">Show real-time cardinal heading and degree tape on viewfinder</string>
+    <string name="cd_compass_overlay">Real-time compass direction overlay</string>
+    <string name="compass_no_sensor">COMPASS N/A</string>
+    <string name="compass_info_true">Heading %1$s (%2$03d° True North)</string>
+    <string name="compass_info_mag">Heading %1$s (%2$03d° Magnetic)</string>
+    <string name="compass_calibrate_hint"> • Move phone in a figure-8 to calibrate</string>
+    <string name="setting_map_zoom">Mini map zoom level</string>
+    <string name="setting_map_zoom_desc">Adjust how close the mini map zooms around your GPS pin</string>
+    <string name="map_zoom_city">City</string>
+    <string name="map_zoom_district">District</string>
+    <string name="map_zoom_street">Street</string>
+    <string name="map_zoom_closeup">Close-up</string>
+    <string name="setting_photo_filter">Photo filter</string>
+    <string name="setting_photo_filter_desc">Apply live color tone to camera preview and saved photos</string>
+    <string name="setting_qr_payload">QR Code Payload</string>
+
+    <!-- Photo, Pro & Video Mode / Recording -->
+    <string name="mode_photo">PHOTO</string>
+    <string name="mode_pro">PRO</string>
+    <string name="mode_video">VIDEO</string>
+    <string name="pro_iso">ISO</string>
+    <string name="pro_shutter_short">S</string>
+    <string name="pro_ev">EV</string>
+    <string name="pro_af">AF</string>
+    <string name="pro_mf">MF</string>
+    <string name="pro_wb">WB</string>
+    <string name="pro_timer">TMR</string>
+    <string name="pro_reset">RST</string>
+    <string name="cd_pro_reset">Reset Pro camera controls to Auto</string>
+    <string name="pro_auto">AUTO</string>
+    <string name="pro_off">OFF</string>
+    <string name="pro_inf">INF</string>
+    <string name="pro_macro">MACRO</string>
+    <string name="pro_iso_title">ISO SENSITIVITY</string>
+    <string name="pro_shutter_title">SHUTTER SPEED</string>
+    <string name="pro_ev_title">EXPOSURE COMPENSATION</string>
+    <string name="pro_focus_title">FOCUS DISTANCE</string>
+    <string name="pro_wb_title">WHITE BALANCE</string>
+    <string name="pro_timer_title">SHUTTER TIMER</string>
+    <string name="pro_manual_sensor_unsupported">Manual ISO/Shutter requires hardware MANUAL_SENSOR support</string>
+    <string name="pro_ev_unsupported">Exposure compensation is not supported on this lens</string>
+    <string name="pro_ev_manual_override_hint">Manual ISO/Shutter active — adjusting EV switches exposure to Auto</string>
+    <string name="pro_mf_unsupported">Fixed-focus lens — Autofocus only</string>
+    <string name="cd_record_video">Start video recording</string>
+    <string name="cd_stop_video">Stop video recording</string>
+    <string name="video_saved_stamped">Saved video with Geo &amp; timestamp overlay</string>
+    <string name="video_saved_timestamp">Saved video with timestamp overlay</string>
+    <string name="video_saved_plain">Video saved to gallery</string>
+    <string name="video_failed">Could not record video</string>
+    <string name="recording_live">REC</string>
+
+    <!-- Gallery View -->
+    <string name="gallery_title">Geo Camera Pro Gallery</string>
+    <string name="gallery_empty_title">No Captures Yet</string>
+    <string name="gallery_empty_subtitle">Photos and geo-tagged videos you capture in Geo Camera Pro will appear here for browsing, playback, and sharing.</string>
+    <string name="gallery_filter_all">All</string>
+    <string name="gallery_filter_photos">Photos</string>
+    <string name="gallery_filter_videos">Videos</string>
+    <string name="cd_open_gallery">Open captured media gallery</string>
+    <string name="cd_back_to_camera">Back to camera</string>
+    <string name="cd_refresh_gallery">Refresh gallery</string>
+    <string name="cd_delete_media">Delete item</string>
+    <string name="cd_share_media">Share item</string>
+    <string name="delete_confirm_title">Delete captured item?</string>
+    <string name="delete_confirm_message">This will permanently remove the selected photo or video from your Geo Camera Pro gallery.</string>
+    <string name="delete_action">Delete</string>
+    <string name="cancel_action">Cancel</string>
+    <string name="deleted_item">Item deleted</string>
+    <string name="delete_failed">Could not delete item</string>
+
+    <!-- Credits & About -->
+    <string name="credits_section_title">Credits &amp; About</string>
+    <string name="credits_badge">Ad-free • Open source</string>
+    <string name="credits_creator_label">Creator</string>
+    <string name="credits_creator_name">Thennarasu Gopalsamy</string>
+    <string name="credits_website_label">Website</string>
+    <string name="credits_website_display">thennarasu.com</string>
+    <string name="credits_website_url">https://thennarasu.com</string>
+    <string name="credits_github_label">GitHub</string>
+    <string name="credits_github_display">github.com/thennarasug/geo-camera-pro</string>
+    <string name="credits_github_url">https://github.com/thennarasug/geo-camera-pro</string>
+
+    <!-- Photo Preview Sheet -->
+    <string name="preview_title">Captured Geo Photo</string>
+    <string name="share_photo">Share Photo</string>
+    <string name="share_video">Share Video</string>
+    <string name="retake">Back to Camera</string>
+</resources>

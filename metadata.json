@@ -1,0 +1,8 @@
+{
+  "name": "Geo Camera Pro",
+  "description": "A camera app with a live geo-location snippet overlay (address, area, location, coordinates) and location QR code.\n***Ad free***\n***Open source***",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
